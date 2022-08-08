@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test1",
+      "setup": "sh runos.sh",
+      "run": "python3 test.py < output",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 15,
+      "points": 100
+    }
+  ]
+}
